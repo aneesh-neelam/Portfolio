@@ -26,9 +26,9 @@ except KeyError:
     SECRET_KEY = 'u&3&%1s@r997^klnue_57=0!@*8=6tp!pem(@*8p#j0=_5&*(q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
