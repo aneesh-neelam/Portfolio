@@ -26,7 +26,7 @@ Please report any bugs or issues [here](https://github.com/aneesh-neelam/Portfol
 ###### Run the server locally at port "$PORT" in os.environ or a manually entered port
 
     $ python manage.py runserver $PORT (For Development)
-    $ waitress-serve --port=$PORT mvp.wsgi:application (For Production)
+    $ waitress-serve --port=$PORT portfolio.wsgi:application (For Production)
     
 #### External Requirements:
 * A PostgreSQL instance running locally or valid "DATABASE_URL" string in os.environ
