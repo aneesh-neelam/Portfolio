@@ -19,8 +19,9 @@ Please report any bugs or issues [here](https://github.com/aneesh-neelam/Portfol
     # npm install -g bower
     $ bower install
     
-###### Django Task - Collect static files
+###### Django Tasks
     
+    $ python manage.py migrate
     $ python manage.py collectstatic
     
 ###### Run the server locally at port "$PORT" in os.environ or a manually entered port
