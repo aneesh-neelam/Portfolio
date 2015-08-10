@@ -1,7 +1,7 @@
 {
     "name": "Portfolio",
-    "version": "0.0.2",
-    "homepage": "http://aneeshneelam.herokuapp.com/",
+    "version": "0.0.1",
+    "homepage": "http://aneeshneelam.me/",
     "authors": [
         "Aneesh Neelam <neelam.aneesh@gmail.com>"
     ],
@@ -18,8 +18,7 @@
         "portfolio",
         "Aneesh",
         "Neelam",
-        "Aneesh",
-        "Neelam",
+        "AneeshNeelam",
         "website",
         "personal"
     ],
