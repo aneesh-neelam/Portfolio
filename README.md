@@ -1,7 +1,7 @@
 Portfolio
 =========
 
-This is the code repository for my Portfolio Website
+This is the code repository for my portfolio website
 
 The website is hosted [here](http://aneeshneelam.me/)
 
