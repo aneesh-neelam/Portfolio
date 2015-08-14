@@ -62,3 +62,6 @@ staticfiles/
 .bower-cache
 .bower-registry
 static/bower_components
+
+# SQLite databases in dev environment
+*.sqlite3

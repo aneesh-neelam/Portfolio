@@ -29,10 +29,13 @@ except KeyError:
 try:
     if os.environ['DJANGO_ENV'] == 'production':
         DEBUG = False
+        GOOGLETOOLS_ENABLED = True
     else:
         DEBUG = True
+        GOOGLETOOLS_ENABLED = True
 except KeyError:
     DEBUG = True
+    GOOGLETOOLS_ENABLED = False
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
@@ -42,12 +45,16 @@ ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = (
+    'material',
+    'material.admin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'googletools',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -95,6 +102,9 @@ except KeyError:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
+
+# Required for Django Google Tools
+SITE_ID = 1
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
