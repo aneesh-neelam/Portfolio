@@ -1,2 +1,14 @@
 {
+  "name": "aneesh-neelam/portfolio",
+  "description": "This is my Portfolio webpage",
+  "authors": [
+    {
+      "name": "Aneesh Neelam",
+      "email": "neelam.aneesh@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.3.0"
+  }
 }
